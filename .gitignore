@@ -1,4 +1,16 @@
-venv/
+# Python temporary files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Local configuration
 .env
-.DS_Store
